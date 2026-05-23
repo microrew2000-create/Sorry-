@@ -1,0 +1,405 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>For My Jaan</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- GRAIN -->
+<div class="grain"></div>
+
+<!-- TOP NAV -->
+<nav class="top-nav">
+
+  <button class="nav-btn active" data-page="intro">
+    Intro
+  </button>
+
+  <button class="nav-btn" data-page="met">
+    How we met
+  </button>
+
+  <button class="nav-btn" data-page="memories">
+    Memories
+  </button>
+
+  <button class="nav-btn" data-page="sorry">
+    I'm sorry
+  </button>
+
+  <button class="nav-btn" data-page="thankyou">
+    Thank you
+  </button>
+
+</nav>
+
+<!-- BOOK -->
+<div class="book">
+
+  <!-- CENTER LINE -->
+  <div class="center-line"></div>
+
+  <!-- INTRO -->
+  <section class="spread active" id="intro">
+
+    <!-- LEFT -->
+    <div class="page left">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <span class="page-tag">
+        </span>
+
+        <h1>For my Jaan</h1>
+
+        <div class="divider"></div>
+
+        <p>
+          This isn't just a booklet.
+          It's every memory, every feeling,
+          every thing I should have said —
+          and the apology I owe you.
+        </p>
+
+        <button class="glass-btn">
+          ✦ Open memories
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="page right">
+
+    <div class="bg-collage">
+
+        <div class="collage-item collage-1">
+            <img src="https://picsum.photos/600/800?1">
+        </div>
+
+        <div class="collage-item collage-2">
+            <img src="https://picsum.photos/600/800?2">
+        </div>
+
+        <div class="collage-item collage-3">
+            <img src="https://picsum.photos/600/800?3">
+        </div>
+
+        <div class="collage-item collage-4">
+            <img src="https://picsum.photos/600/800?4">
+        </div>
+
+    </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <span class="page-tag">
+        </span>
+
+        <h1>Turn every page.</h1>
+
+        <div class="divider"></div>
+
+        <blockquote>
+          “Of all the things that happened to me,
+          meeting you was the one I'd choose again.”
+        </blockquote>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- HOW WE MET -->
+  <section class="spread" id="met">
+
+    <div class="page left">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <span class="page-tag">
+          CHAPTER 1
+        </span>
+
+        <h1>How we met</h1>
+
+        <div class="divider"></div>
+
+        <p>
+          Funny how one conversation can quietly become
+          one of the most important moments of your life.
+        </p>
+
+        <div class="photo-grid">
+
+          <div class="photo-card">
+            <img src="https://picsum.photos/400/500?1">
+          </div>
+
+          <div class="photo-card">
+            <img src="https://picsum.photos/400/500?2">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="page right">
+
+        <div class="bg-collage">
+
+            <div class="collage-item collage-1">
+                <video autoplay muted loop>
+                    <source src="WhatsApp Video 2026-05-23 at 17.20.37 (3).mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="collage-item collage-2">
+                <img src="https://picsum.photos/600/800?2">
+            </div>
+
+            <div class="collage-item collage-3">
+                <img src="https://picsum.photos/600/800?3">
+            </div>
+
+            <div class="collage-item collage-4">
+                <img src="https://picsum.photos/600/800?4">
+            </div>
+
+        </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <span class="page-tag">
+          MEMORY
+        </span>
+
+        <h1>The little things.</h1>
+
+        <div class="divider"></div>
+
+        <p>
+          The laughs.
+          The random conversations.
+          The comfort.
+          The way everything felt easier with you.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MEMORIES -->
+  <section class="spread" id="memories">
+
+    <div class="page left">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1511988617509-a57c8a288659?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <span class="page-tag">
+          MEMORIES
+        </span>
+
+        <h1>Favorite moments</h1>
+
+        <div class="divider"></div>
+
+        <div class="memory-list">
+
+          <div class="memory-item">
+            ✦ Late night talks
+          </div>
+
+          <div class="memory-item">
+            ✦ Random screenshots
+          </div>
+
+          <div class="memory-item">
+            ✦ The way you smiled
+          </div>
+
+          <div class="memory-item">
+            ✦ The comfort you gave me
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="page right">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <div class="big-photo">
+          <img src="https://picsum.photos/500/700?3">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SORRY -->
+  <section class="spread" id="sorry">
+
+    <div class="page left">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <span class="page-tag">
+          I'M SORRY
+        </span>
+
+        <h1>I understand now.</h1>
+
+        <div class="divider"></div>
+
+        <p>
+          I know I could've listened better.
+          Communicated better.
+          Been more careful with your feelings.
+        </p>
+
+        <p>
+          And I'm genuinely sorry for that.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="page right">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <blockquote class="final-quote">
+          “Some people leave marks on your soul.
+          You were one of them.”
+        </blockquote>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- THANK YOU -->
+  <section class="spread" id="thankyou">
+
+    <div class="page left">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content">
+
+        <span class="page-tag">
+          FINAL PAGE
+        </span>
+
+        <h1>Thank you.</h1>
+
+        <div class="divider"></div>
+
+        <p>
+          Even if this someday becomes just another memory,
+          I'll still be grateful for every part of it.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="page right">
+
+      <div class="bg-collage"
+        style="background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200');">
+      </div>
+
+      <div class="overlay"></div>
+
+      <div class="content end-content">
+
+        <h1>♡</h1>
+
+        <p>
+          Made with love.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
